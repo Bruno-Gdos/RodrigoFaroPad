@@ -42,7 +42,7 @@ h1 {
   height: 120px;
   font-size: 0.9em;
   font-weight: bold;
-  line-height: 120px;
+  line-height: 20px;
   text-align: center;
   width: 120px;
 }
@@ -65,4 +65,18 @@ h1 {
 .tecla.active:focus,
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(#ff001e);
+}
+
+.tecla_bruno {
+  background-color: #b1b1b1;
+  border-radius: 30px;
+  box-shadow: 3px 3px 0 #3b3b3b;
+  color: #000000;
+  cursor: pointer;
+  height: 120px;
+  font-size: 0.9em;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+  width: 120px;
 }
